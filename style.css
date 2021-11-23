@@ -175,6 +175,7 @@ header{
 
 
 .novinky{
+  width:100%;
   padding-top: 10px;
   display: flex;
   flex-direction: row;
@@ -183,15 +184,14 @@ header{
 }
 
 .udalost{
-  max-width: 360px;
+  width:100%;
   margin:10px;
   background-color: #D0CFCE;
-  padding: 20px;
   border-radius: 20px;
 }
 
 .udalost img{
-  max-width: 360px;
+  width: 100%;
   max-height: auto;
 }
 
@@ -225,7 +225,7 @@ header{
 
 iframe{
   margin:20px;
-  width: 500px;
+  width: 300px;
   height: 350px;
 
 }
@@ -280,8 +280,11 @@ iframe{
     .sidenav a {font-size: 18px;}
     .content{
       min-width: 100%;
+     
     }
-    
+     .novinky{
+        
+      }
   }
 
   @media screen and (max-width: 600px) {
