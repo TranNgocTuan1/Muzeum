@@ -25,16 +25,14 @@
 
 <body>
 
+    <div class="content">
     <header>
         <div id="top" class="">
             <div class="head-content">
-                <div class="socSite">
-                    <a href="#" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-google"></a>
-                    <a href="#" class="fa fa-youtube"></a>
 
+
+                <div class="logo">
+                    <img src="logo.png" alt="">
                 </div>
                 <div class="nadpis">
                     <h1>Muzeum PČR</h1>
@@ -46,6 +44,15 @@
                     </form>
                 </div>
             </div>
+            <div class="topnav" id="myTopnav">
+                <a href="#home" class="active">Domu</a>
+                <a href="#news">Novinky</a>
+                <a href="#contact">archiv</a>
+                <a href="#about" onclick="openNav()">Dalsi</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
             </div>
         </header>
 
@@ -53,21 +60,39 @@
         <div id="slider" class="">
             <div id="owl-carousel" class="owl-carousel owl-theme">
                 <div class="item">
-                    <img src="autp.webp" alt="">
-                    <div class="novinka">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde doloremque soluta voluptatum officiis mollitia fuga dolor quaerat illo ex atque.
-                    </div>
+                    <img src="1.png" alt="">
+                    
                 </div>
                 <div class="item">
                     <img src="pXykw.webp" alt="">
-                    <div class="novinka">
-                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam odit voluptatum sequi! Dolorem quas odit, quia architecto repudiandae totam aspernatur?
-                    </div>
+                    
                 </div>
             </div>
         </div>
-        
 
+        <div class="novinky">
+            
+            <div class="udalost">
+                <img src="udalost.jpg" alt="">
+                <h2>Header</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia officiis veniam quo laudantium cumque in exercitationem sit. Quisquam, quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, ipsam reiciendis officiis voluptates unde laborum. Praesentium nemo ipsa minus sunt?</p>
+            </div>
+            
+            <div class="udalost">
+                <img src="udalost.jpg" alt="">
+                <h2>Header</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente soluta cum ipsam architecto? Deserunt provident, iure deleniti blanditiis odit itaque.</p>
+            </div>
+
+            <div class="udalost">
+                <img src="udalost.jpg" alt="">
+                <h2>Header</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit maxime iure eligendi atque! Ullam optio natus exercitationem debitis laborum nobis!</p>
+            </div>
+
+        </div>
+        
+        
    
 
 
@@ -95,6 +120,14 @@
                     +420 974 824 831, +420 724 194 206<br>
                     vlcek@muzeumpolicie.cz</p>
                 </div>
+                <div class="socSite">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-google"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+
+                </div>
 
             </div>
 
@@ -117,7 +150,7 @@
         </div>
     </footer>
    
-
+</div>
 </body>
 
 </html>
