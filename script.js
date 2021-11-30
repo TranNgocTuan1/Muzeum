@@ -9,6 +9,45 @@ $(document).ready(function(){
         autoplayTimeout:7000
     })
 
+/* Video Popup*/
+jQuery(document).ready(function ($) {
+  // Define App Namespace
+  var popup = {
+    // Initializer
+    init: function() {
+      popup.popupVideo();
+    },
+    popupVideo : function() {
+
+    $('.gallery').magnificPopup({
+    type: 'iframe',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+    fixedContentPos: false,
+    gallery: {
+          enabled:true
+        }
+  });
+
+/* Image Popup*/ 
+ $('.gallery').magnificPopup({
+      delegate: 'a',
+    type: 'image',
+    mainClass: 'mfp-fade',
+    removalDelay: 160,
+    preloader: false,
+    fixedContentPos: false,
+    gallery: {
+          enabled:true
+        }
+  });
+
+    }
+  };
+  popup.init($);
+});
+
 
  
     
