@@ -263,6 +263,7 @@ textarea {
 
 
 .novinky{
+  width:70%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -275,8 +276,10 @@ textarea {
 }
 
 .udalost img{
-  width: 100%;
-  max-height: auto;
+  width: 40%;
+  height: 150px;
+  float: left;
+  margin : 5px;
 }
 
 /*----footer----*/
