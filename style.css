@@ -91,10 +91,8 @@ header{
 
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    
+.hitem{
+  width:auto;
 }
 
 #top{
@@ -148,17 +146,6 @@ header{
 
 
 
-.kontakt {
-  height: auto;
-  width: 50%;
-  font-family: 'Cabin', sans-serif;
-  margin: 0 auto;
-  margin-top: 40px;
-  display: block;
-  background: white;
-  padding: 20px;
-  border-radius: 15px;
-}
 
 form {
   font-family: 'Cabin', sans-serif;
@@ -247,6 +234,7 @@ textarea {
     margin: 0 auto;
     width: 100%;
     margin-right: 5px;
+    height: 100vh;
 }
 
 
@@ -259,13 +247,16 @@ textarea {
   position:relative;
   max-height: 700px;
   border-radius: 20%;
-  
+  height: 100vh;
 }
 
 .item img{
   
-  max-height: 75vh;
+  max-height: 100vh;
   min-width: auto;
+}
+.owl-carousel{
+  height: 100vH;
 }
 
 
@@ -298,34 +289,18 @@ textarea {
     background-color: 	#e8c593;
 }
 
-.otvdoba{
-  padding-left: 60px;
+.box {
+  width:auto;
 }
 
-.reditel{
-  font-size: 18px;
-}
-
-.zastupce{
-  width: 80%;
-  float: right;
-  font-size: 18px;
-}
-
-#mapa{
+.kontakt {
+  height: auto;
+  font-family: 'Cabin', sans-serif;
+  margin: 0;
+  display: block;
   padding: 20px;
+  border-radius: 15px;
 }
-
-iframe{
-  margin:20px;
-  width: 300px;
-  height: 350px;
-
-}
-
-
-
-
 
   /*----socnet icony-----*/
 
@@ -377,6 +352,11 @@ iframe{
     }
      .udalost{
        width:100%;
+     }
+
+     .hitem{
+       width:100%;
+       text-align: center;
      }
        
      
